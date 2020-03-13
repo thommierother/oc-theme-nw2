@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <info>
 	<id>theme-nw2</id>
-	<name>custom theme netzwissen2</name>
+	<name>Theme netzwissen.de</name>
 	<description>This App provides a customized ownCloud theme.</description>
 	<licence>AGPL</licence>
 	<author>Philipp Schaffrath, Thomas Rother</author>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<types>
 		<theme/>
 	</types>
