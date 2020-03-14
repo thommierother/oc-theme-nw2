@@ -30,7 +30,7 @@
 /* can also be a flat color or an image */
 #body-login {
 	/* Login background image */
-	background-image: url("../img/background2.jpg") !important;
+	background-image: url("../img/background.jpg") !important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
