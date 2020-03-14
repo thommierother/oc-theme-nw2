@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://owncloud.org';
+		return 'https://www.netzwissen.de/owncloud';
 	}
 
 	/**
@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud - Custom Claim';
+		return 'netzwissen.de Cloud';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'Owncloud Server';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '<b>Custom</b> Cloud';
+		return '<b>netzwissen.de</b> Cloud';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'Custom Cloud Co.';
+		return 'netzwissen.de';
 	}
 
 	/**
@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return 'Owncloud - ein sicherer Platz für deine Daten';
 	}
 
 	/**
@@ -113,7 +113,7 @@ class OC_Theme {
 	 * @return string logo claim
 	 */
 	public function getLogoClaim() {
-		return '<a href="https://example.com">Custom Claim</a>';
+		return '<a href="https://owncloud.com">owncloud</a>';
 	}
 
 	public function getPrivacyPolicyUrl() {
@@ -123,7 +123,7 @@ class OC_Theme {
 			return '';
 		}
 	}
-	
+
 	public function getImprintUrl() {
 		try {
 			return \OC::$server->getConfig()->getAppValue('core', 'legal.imprint_url', '');
@@ -135,7 +135,7 @@ class OC_Theme {
 	public function getL10n() {
 		return \OC::$server->getL10N('core');
 	}
-	
+
 	/**
 	 * Returns short version of the footer
 	 * @return string short footer
