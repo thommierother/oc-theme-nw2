@@ -12,7 +12,7 @@
 					<td width="20px">&nbsp;</td>
 					<td style="font-weight:normal; font-size:0.8em; line-height:1.2em; font-family:verdana,'arial',sans;">
 						<?php
-						p($l->t('Password changed successfully'));
+						p($l->t('Passwort geändert'));
 						?>
 					</td>
 				</tr>
@@ -29,4 +29,3 @@
 			</table>
 		</td></tr>
 </table>
-

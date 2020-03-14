@@ -31,12 +31,12 @@ script('core', 'lostpassword');
 		<p class="groupbottom<?php if (!empty($_['invalidpassword'])) {
 	?> shake<?php
 } ?>">
-			<label for="password" class="infield"><?php p($l->t('New password')); ?></label>
-			<input type="password" name="password" id="password" value="" placeholder="<?php p($l->t('New Password')); ?>" autocomplete="off" required autofocus />
-			<input type="password" name="retypepassword" id="retypepassword" value="" placeholder="<?php p($l->t('Confirm Password')); ?>"/>
+			<label for="password" class="infield"><?php p($l->t('Neues Passwort')); ?></label>
+			<input type="password" name="password" id="password" value="" placeholder="<?php p($l->t('Neues Passwort')); ?>" autocomplete="off" required autofocus />
+			<input type="password" name="retypepassword" id="retypepassword" value="" placeholder="<?php p($l->t('Passwort bestätigen')); ?>"/>
 			<span id='message'></span>
 		</p>
-		<input type="submit" id="submit" value="<?php p($l->t('Reset password')); ?>" />
+		<input type="submit" id="submit" value="<?php p($l->t('Password zurücksetzen')); ?>" />
 		<p class="text-center">
 			<img class="hidden" id="float-spinner" src="<?php p(image_path('core', 'loading-dark.gif'));?>"/>
 		</p>
